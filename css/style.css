@@ -1,0 +1,352 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans"
+	
+
+}
+
+html,body{
+	height: 100%;
+}
+
+@font-face{
+	src:url('../fonts/OpenSans-Light.ttf');
+	font-family: "Open Sans";
+}
+
+.clear{
+	clear: both;
+}
+
+.center{
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+.header{
+	
+	width: 100%;
+	padding: 0 2%;
+	height: 60px;
+	background-color: black;
+}
+
+.header img{
+	margin: 15px;
+}
+
+.container-banner{
+	width: 100%;
+	padding: 0 2%;
+	height: 557px;
+	background-image:url('../images/header_bg.png');
+	background-size: covjpg
+	background-position: center;
+}
+
+.container-banner > .center{
+	height: 100%;
+	
+}
+
+.form{
+	padding:10px;
+	width: 400px;
+	height: calc(100% + 30px);
+	float: right;
+	position: relative;
+	top:-15px;
+	border-width: 12px;
+	border-color: rgba(120,120,120,0.5);
+	border-style: solid;
+	background-color: black;
+	background-clip:padding-box;
+	/*background-origin tem o mesmo conceito porém serve para imagens.*/
+}
+
+
+
+.form h2{
+	font-weight: normal;
+	color: green;
+	font-size: 21px;
+	font-family: "Rammetto One";	
+
+}
+
+.input-container{
+	margin-top:20px;
+
+}
+
+.input-container span{
+	display: inline-block;
+	width: 100%;
+	color: red;
+	font-size: 17px;
+	font-family: "Rammetto One";
+
+}
+
+.form p{
+	display: inline-block;
+	width: 100%;
+	color: purple;
+	font-size: 17px;
+	margin:20px 0;
+	font-family: "Rammetto One";
+
+}
+
+.input-container input[type=text]{
+	margin-top:8px;
+	width: 344px;
+	height: 55px;
+	border:1px solid #ccc;
+	background-color: rgb(80, 80, 80);
+
+
+}
+
+.form .input-submit-container{
+	text-align: center;
+
+}
+
+.form input[type=submit]{
+	color: white;
+	font-size: 25px;
+	width: 280px;
+	height: 56px;
+	display: inline-block;
+	background-color: grey;
+	border-top:0;
+	border-right: 0;
+	border-left: 0;
+	cursor: pointer;
+	border-bottom: 5px solid grey;
+	font-family: "Rammetto One";
+
+}
+
+.form input[type=submit]:hover{
+	background-color: orange;
+}
+
+.container-list{
+	padding:30px;
+	margin-top:100px;
+	float: left;
+	width: 519px;
+	height: 270px;
+	background-color: rgba(50,50,50,0.7);
+}
+
+.container-list ul{
+	list-style-position: inside;
+}
+
+.container-list ul {
+	color: blue;
+	font-family: "Rammetto One";
+	font-size: 19.08px;
+
+}
+
+
+.container-2{
+	
+	padding:40px 2%;
+	background-color: rgba(30,30,30,0.9);
+	text-align: center;
+}
+
+.container-2 h2{
+	font-weight: normal;
+	color:yellow;
+	font-family: "Rammetto One";
+}
+
+.container-2 p{
+	width: 100%;
+	margin:15px 0;
+	display: inline-block;
+	text-align: justify;
+	color:yellow;
+	font-family: "Rammetto One";
+}
+
+.arrow{
+	position: relative;
+	top:60px;
+	left:50%;
+	margin-left: -20px;
+	width: 40px;
+	height: 40px;
+	background-image: url('../images/arrow.png');
+	background-size: 100% 100%;
+}
+
+.section-1{
+	
+	padding:90px 2%;
+}
+
+.section-1 h2{
+	text-align: center;
+	color: black;
+	font-weight: normal;
+	font-family: "Rammetto One";
+}
+
+.container-section{
+	margin-top:40px;
+	text-align: center;
+}
+
+
+.container-single{
+	float: left;
+	width: 33.3333%;
+	padding:30px;
+
+}
+
+
+.container-single p{
+	display: inline-block;
+	text-align: center;
+	padding:19px 17px;
+	font-size: 20px;
+	font-family: "Patrick Hand";
+
+}
+
+.container-single img{
+	width:70px;
+}
+
+.footer{
+	/*clear:both;*/
+	border-top:2px solid #888888;
+	padding:20px 0;
+	text-align: center;
+	color: #888;
+}
+
+.footer p{
+	margin-top:8px;
+}
+
+
+
+.container{
+	width: 100%;
+	max-width: 1280px;
+	margin:20px auto;
+	padding: 30px 0;
+	border:3px solid rgb(220,220,220);
+	
+}
+
+.img-wraper{
+	width:33.3%;
+	padding-top: calc(33.3% / 1.6);
+	float: left;
+	background-color:white;
+	position: relative;
+	border:4px solid white;
+}
+
+.img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100%;
+	height: 100%;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+
+@media screen and (max-width: 1024px){
+
+.header{
+	
+	width: 100%;
+	padding:15px 0;
+	text-align: center;
+}
+
+.header img{
+
+margin:0;
+
+}
+
+.container-list{
+	padding:30px 0;
+	float: none;
+	width: 90%;
+	margin-top: 0;
+	display: inline-block;
+	max-width: 500px;
+	height: auto;
+	
+}
+
+.container-banner{
+	width: 100%;
+	padding: 40px 2%;
+	height: auto;
+	text-align: center;
+
+	
+}
+
+
+.form{
+
+    margin-top: 30px;
+    max-width: 400px;
+	padding:10px;
+	width: 90%;
+	height:100%;
+	display: inline-block;
+	float: none;
+	top:0%;
+}
+
+.input-container input[type=text]{
+	
+	width: 100%;
+	height: 55px;
+	
+}
+
+
+.form input[type=submit]{
+	
+	max-width: 280px;
+	height: 56px;
+	width: 100%;
+}
+
+@media screen and (max-width: 768px){
+
+.container-single{
+	float: none;
+	display: inline-block;
+	width: 100%;
+	max-width: 600px;
+	padding:30px 0;
+
+}
+
+}
